@@ -1,0 +1,121 @@
+body
+{
+ background-image:url('../images/bg.jpg');   
+}
+#outer
+{
+    width:1000px;
+    height:auto;
+    min-height:1200px;
+    //border:1px solid white;
+    margin:0 auto;
+}
+#header
+{
+    width:1000px;
+    height:150px;
+}
+#logo
+{
+    width:150px;
+    height:150px;
+    background-color:pink;
+    float:left;
+}
+#title
+{
+    width:850px;
+    height:150px;
+    background-color:navy;
+    float:right;
+    color:white;
+    font-size:80px;
+    text-align:center;
+    line-height:150px;
+}
+#menu
+{
+    width:1000px;
+    height:50px;
+    background-color:white;
+    margin-top:5px;
+    border:1px solid white;
+}
+#menu ul
+{
+  list-style-type: none;
+}
+#menu ul li
+{
+    display:inline;
+}
+#menu ul li a
+{
+    text-decoration:none;
+    color:black;
+    padding:20px;
+    font-size:20px;
+}
+#menu ul li a:hover
+{
+    color:red;
+}
+#slider
+{
+    width:1000px;
+    height:250px;
+    background-color:lightgrey;
+    margin-top:5px;
+}
+#main
+{
+    width:1000px;
+    min-height:600px;
+    height:auto;
+    margin-top:5px;
+}
+#left
+{
+    width:300px;
+    height:auto;
+    min-height:600px;
+    float:left;
+    background-color:cyan;
+}
+#right
+{
+    width:700px;
+    height:auto;
+    min-height:600px;
+    float:right;
+    background-color:white;
+}
+#footer
+{
+    width:1000px;
+    height:130px;
+    margin-top: 5px;
+    //background-color:white;
+}
+#lfooter
+{
+    width:500px;
+    height:130px;
+    font-size:40px;
+    text-align: center;
+    background-color:black;
+    line-height: 130px;
+    color:white;
+    float:left;
+}
+#rfooter
+{
+    width:500px;
+    height:130px;
+    font-size:30px;
+    text-align: center;
+    background-color:navy;
+    line-height: 130px;
+    color:white;
+    float:left;
+}
